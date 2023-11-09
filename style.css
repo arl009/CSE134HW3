@@ -98,12 +98,12 @@ section div h3 {
     margin-right: 0.5rem;
 }
 
-div div{
+div article{
     transform: scale(1);
     transition: transform 0.5s;
 }
 
-div div:hover {
+div article:hover {
     transform: scale(1.01);
 }
 
