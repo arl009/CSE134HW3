@@ -98,6 +98,15 @@ section div h3 {
     margin-right: 0.5rem;
 }
 
+div div{
+    transform: scale(1);
+    transition: transform 0.5s;
+}
+
+div div:hover {
+    transform: scale(1.01);
+}
+
 /* Media */
 img {
     width: 90%;
